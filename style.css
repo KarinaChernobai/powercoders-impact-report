@@ -71,8 +71,8 @@ main{
 
 .about{
     flex: 100%;
-    padding-top: 60px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,13 +86,15 @@ main{
     font-weight: 300;
 }
 
-.p__highlight{
+.about .text__highlight{
     font-weight: 400;
 }
 
 .impact{
     background-color: #B6F6C7;
-    padding: 36px;
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,6 +120,36 @@ button{
 button:hover{
     background-color: #51A398 ;
     cursor: pointer;
+}
+
+.figures{
+   text-align: center;
+}
+.figures h2{
+    color: #343534;
+}
+.reports{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.report{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+    color: #343534;
+}
+.report__img{
+    max-width: 250px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.report__img:hover{
+    transform: scale(1.5);
 }
 
 p{

@@ -1,0 +1,130 @@
+/* Sticky nav */
+
+/* Color Palette
+Background:  #FFFFFF
+Red 1: #C42E4C
+Light green 1: #B6F6C7
+hoover green: #B6F6C7
+footer 1: #333333
+
+ */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #343534 ;
+    margin: 0;
+    font-size: 18px;
+}
+
+.navbar{
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar a{
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #343534;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color: #C42E4C;
+}
+
+.header{
+    background-image: url("media/placeholder1.jpg");
+    background-size: cover;
+    background-position: center 7%;
+    height: 50vh;
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    position: relative;
+    z-index: 1;
+    top: -60px;
+    
+}
+
+.header h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+main{
+    
+}
+
+.about{
+    flex: 100%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about p{
+    max-width: 60ch;
+    text-align: center;
+    font-weight: 300;
+}
+
+.p__highlight{
+    font-weight: 400;
+}
+
+.impact{
+    background-color: #B6F6C7;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.impact h2{
+    text-transform: uppercase;
+    text-align: left;
+}
+
+button{
+    padding: 14px 25px;
+    border: 0;
+    text-transform: uppercase;
+    margin-top: 40px;
+    background-color: #B6F6C7;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+button:hover{
+    background-color: #51A398 ;
+    cursor: pointer;
+}
+
+p{
+    max-width: 100ch;
+}
+h2{
+    font-weight: 700;
+    font-size: 38px;
+    color: #C42E4C;
+}

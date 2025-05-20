@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #343534 ;
+    margin: 0;
+    font-size: 18px;
+}
+
+.navbar{
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar a{
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #343534;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color: #C42E4C;
+}
+
+.header{
+    background-image: url("impact_media/background2.jpg");
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    top: -62px;
+    padding: 15px;
+
+}
+
+.header h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.red__highlight{
+    color: #C42E4C;
+    font-weight: 400;
+    font-size: 55px;
+}
+
+.red__highlight2{
+    color: #C42E4C;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+main{
+    
+}
+
+p{
+    max-width: 55ch;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0;
+}
+h2{
+    font-weight: 700;
+    font-size: 38px;
+    color: #C42E4C;
+    font-weight: 500;
+    margin-bottom: 10;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.card{
+    background-color: #F6F6F6;
+    padding: 20px;
+    margin: 20px;
+}
+
+.source{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-style: italic;
+  
+}
+
+.cursive{
+    font-style: italic;
+}

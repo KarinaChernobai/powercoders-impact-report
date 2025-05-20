@@ -1,0 +1,197 @@
+/* Admin Panel Styles */
+:root {
+    --primary-color: #343534;
+    --secondary-color: #C42E4C;
+    --accent-color: #B6F6C7;
+    --accent-hover: #51A398;
+    --background-color: #FFFFFF;
+    --light-background: #F6F6F6;
+    --footer-color: #333333;
+    --border-color: #E5E5E5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+header h1 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header p {
+    color: var(--primary-color);
+    font-weight: 300;
+}
+
+.edit-section {
+    background: var(--light-background);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-section h2 {
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.project-group {
+    background: var(--background-color);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+.project-group h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(182, 246, 199, 0.2);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-group input[type="file"] {
+    margin-bottom: 0.5rem;
+}
+
+.form-group input[type="file"] + input[type="text"] {
+    margin-top: 0.5rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+button {
+    padding: 14px 25px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.save-btn {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.save-btn:hover {
+    background-color: var(--accent-hover);
+    color: var(--background-color);
+}
+
+.preview-btn {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
+.preview-btn:hover {
+    background-color: #a3253d;
+}
+
+/* Image Preview Styles */
+.form-group img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.form-group img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .admin-container {
+        padding: 1rem;
+    }
+
+    .edit-section {
+        padding: 1.5rem;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .form-group img {
+        max-width: 150px;
+    }
+} 

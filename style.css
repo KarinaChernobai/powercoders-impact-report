@@ -64,6 +64,7 @@ body{
     color: white;
 }
 
+
 main{
     
 }
@@ -204,6 +205,8 @@ button:hover{
 
 .collabs a:hover{
     transform: scale(1.1);
+    /* background-color: #F6F6F6;
+    border-radius: 6px; */
 }
 
 .collabs ul{
@@ -214,6 +217,7 @@ button:hover{
 
 .collabs__img{
     max-width: 550px;
+    border-radius: 8px;  /* Uncertain of this */
 }
 
 .collabs button{

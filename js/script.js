@@ -1,4 +1,5 @@
 import { JsonData, Page } from './types.js';
+import { loadReport } from './parser.js';
 
 /**
  * Reads from Json.
@@ -27,6 +28,20 @@ async function fetchData(folderPath) {
     // data.display();
 }
 
-document.addEventListener("DOMContentLoaded", async () => {
-    await fetchData();
-});
+
+// new fetching algorythm
+async function fetchDataNew(filePath) {
+  const report = await loadReport(filePath);
+  //  then report goes into renderer,
+  //  or console, or where needed:
+  console.log(report);
+}
+// testing new fetching date script
+document.addEventListener('DOMContentLoaded', () =>
+  fetchDataNew('../data/impact_test.json')
+);
+
+//  
+// document.addEventListener("DOMContentLoaded", async () => {
+//     await fetchData();
+// });

@@ -1,0 +1,100 @@
+{
+  "sections": [
+    {
+      "type": "cards",
+      "rows": [
+        {
+          "alternate": false,
+          "id": "workIntegration",
+          "card": {
+            "title": "Work Integration",
+            "blocks": [
+              { "h3": "Placement rate" },
+              { "p": "Internships of 6-12 months {{span:red}}90%{{/span}}" },
+              { "p": "{{span:red2}}42%{{/span:red2}} higher employment probability\nAccelerated integration by {{span:red2}}6{{/span:red2}} years" },
+              { "p": { "text": "Numbers based on Study by University of Zurich, Zisler/Bettinger/Backes-Gellner (2024): Impact of the Powercoders Program on Refugee Integration in Switzerland", "class": "source" } },
+              { "h3": "Integration rate" },
+              { "p": "Jobs / apprenticeships within 3 years of graduation. {{span:red}}70%{{/span}}" },
+              { "p": { "text": "Ongoing estimation.", "class": "source" } }
+            ]
+          },
+          "gallery": [
+            "impact_media/pc1.jpg",
+            "impact_media/pc2.jpg",
+            "impact_media/pc3.jpg"
+          ]
+        },
+
+        {
+          "alternate": true,
+          "id": "womenConnect",
+          "gallery": [
+            "impact_media/pc1.jpg",
+            "impact_media/pc2.jpg",
+            "impact_media/pc3.jpg"
+          ],
+          "card": {
+            "title": "Women Connect",
+            "blocks": [
+              { "p": { "text": "_Interactive workshop series aiming to create a safe space and fostering a supportive environment to spark a fire amongst women from refugee or migrant backgrounds to develop their interest in IT by learning from women in tech._", "class": "cursive" } },
+              { "p": "{{span:red}}+ {{/span}}Internships of 6 to 12 months" },
+              { "p": "{{span:red2}}36{{/span:red2}} Female participants\n{{span:red2}}15{{/span:red2}} Female workshop leaders" },
+              { "p": "{{span:red2}}90%{{/span:red2}} felt better equipped with the information they needed to build their own IT careers" }
+            ]
+          }
+        }
+      ]
+    },
+
+   
+    {
+      "type": "cards",
+      "rows": [
+        {
+          "alternate": false,
+          "id": "digitalLiteracy",
+          "card": {
+            "title": "Digital literacy",
+            "blocks": [
+              { "p": { "text": "_Providing asylum seekers essential digital skills …_", "class": "cursive" } },
+              { "p": "{{span:red}}+ {{/span}}At Verified Temporary Asylum Centre by Heilsarmee in Bern" },
+              { "p": "{{span:red2}}15{{/span:red2}} asylum seekers\n{{span:red2}}10{{/span:red2}} alumni volunteers" },
+              { "p": "{{span:red2}}87%{{/span:red2}} will use the digital skills they learn in their everyday lives" }
+            ]
+          },
+          "gallery": []
+        },
+
+        {
+          "alternate": false,
+          "id": "futureTalents",
+          "card": {
+            "title": "Future talents",
+            "blocks": [
+              { "p": { "text": "_Helping young refugees and financially disadvantaged youth access IT apprenticeships in Switzerland._", "class": "cursive" } },
+              { "p": "{{span:red}}+ {{/span}}In Zurich and Lausanne" },
+              { "p": "{{span:red2}}12{{/span:red2}} teenagers took part" },
+              { "p": "{{span:red2}}5{{/span:red2}} out of them secured an apprenticeship so far" }
+            ]
+          },
+          "gallery": []
+        },
+
+        {
+          "alternate": false,
+          "id": "bootcamp",
+          "card": {
+            "title": "Bootcamp",
+            "blocks": [
+              { "p": { "text": "_3-month full-time training followed by a 6-12-month internship …_", "class": "cursive" } },
+              { "p": "{{span:red}}+ {{/span}}In Bern, Zurich and Lausanne" },
+              { "p": "{{span:red2}}29{{/span:red2}} in spring, {{span:red2}}23{{/span:red2}} in fall" },
+              { "p": "{{span:red2}}48{{/span:red2}} placed in internships" }
+            ]
+          },
+          "gallery": []
+        }
+      ]
+    }
+  ]
+}

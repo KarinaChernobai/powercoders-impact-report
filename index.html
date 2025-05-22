@@ -168,6 +168,25 @@
     </div>
     </footer>
     
+    <!--
+    
     <script  type="module" src="js/script.js"></script>
+    -->
+
+    <!-- Testing script for fetcher -->
+    <script type="module"> 
+        import { loadReport }   from './js/parser.js';
+        import { renderReport } from './js/renderer.js';
+
+        document.addEventListener('DOMContentLoaded', async () => {
+          const container = document.getElementsByTagName("main");
+
+          container.innerHTML = '';   // wipe previous content
+
+          const report = await loadReport('./data/impact_test.json');
+          renderReport(report, container);
+        });
+    </script>
+
 </body>
 </html>

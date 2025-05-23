@@ -47,32 +47,37 @@ function buildCardsSection(sec) {
 function buildRow(row) {
   const hasGallery = row.gallery && Array.isArray(row.gallery.images);
 
-  // ----- CASE 1: galery not empty → regular card__container
+  /* 1 ── pick correct wrapper class */
+  const baseClass   = row.containerVariant ?? 'card__container';
+  const container   = document.createElement('div');
+  container.className =
+      baseClass +
+      (row.alternate ? ' alternate' : '');
+
+  container.id = row.id;
+
+  /* 2 ── inner parts */
+  const cardEl    = buildCard(row.card);
+  const galleryEl = hasGallery ? buildGallery(row.gallery) : null;
+
+  /* 3 ── order */
   if (hasGallery) {
-    const container = document.createElement('div');
-    container.className =
-      'card__container' + (row.alternate ? ' alternate' : '');
-    container.id = row.id;
-
-    const galleryEl = buildGallery(row.gallery);
-    const cardEl    = buildCard(row.card);
-
     row.alternate
       ? (container.append(galleryEl), container.append(cardEl))
-      : (container.append(cardEl),   container.append(galleryEl));
-
-    return container;
+      : (container.append(cardEl),    container.append(galleryEl));
+  } else {
+    container.append(cardEl);
   }
 
-  // ----- CASE 2: no galery (empty) → straight to <div class="card">
-  const soloCard = buildCard(row.card);
-  soloCard.id = row.id;                 // id anker
-  return soloCard;
+  return container;
 }
+
+
 
 function buildCard(card) {
   const cardEl = document.createElement('div');
-  cardEl.className = `card ${card.id ?? ''}`;
+  const extra = card.variant ? ` ${card.variant}` : '';
+  cardEl.className = `card ${card.id ?? ''}${extra}`;
   cardEl.append(createEl('h2', card.title));
 
   (card.blocks || []).forEach(block => {
@@ -89,13 +94,13 @@ function buildCard(card) {
 function buildGallery(galeryObj) {
   // backwards-compat: if legacy array passed, wrap it
   const images = Array.isArray(galeryObj) ? galeryObj : galeryObj.images;
-  const variant = galeryObj.type || 'a';        // default type = “a”
+  const variant = galeryObj.type || '';        // default type = “a”
 
   const wrapper = document.createElement('div');
   wrapper.className = 'galleryContainer';
 
   const galery = document.createElement('div');
-  //galery.className = `gallery gallery--${variant}`;  // if you need
+  galery.className = `gallery`; 
 
   images.forEach((src, i) => {
     const fig = document.createElement('figure');

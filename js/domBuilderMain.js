@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const main = document.querySelector(TARGET_TAG); 
   if (!main) return console.error(`<${TARGET_TAG}> tag not found`);
 
-  main.innerHTML = '';         // clear before start
+  //main.innerHTML = '';         // clear before start
 
                                         // test file  
   const res  = await fetch(JSON_ROOT + 'impact_test.json');

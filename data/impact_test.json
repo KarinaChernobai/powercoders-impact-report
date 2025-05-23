@@ -1,8 +1,10 @@
 {
   "header": {
     "title": "Impact {{span:red__highlight}}2024{{/span}}",
-    "image": "media/impact-2024-hero.jpg"
+    "image": "media/impact-2024-hero.jpg",
+    "height": "100vh"
   },
+
   "sections": [
     {
       "type": "cards",
@@ -16,14 +18,14 @@
               { "h3": "Placement rate" },
               { "p": "Internships of 6 to 12 months {{span:red__highlight}}90%{{/span}}" },
               { "p": "{{span:red__highlight2}}42%{{/span}} higher employment probability\nAccelerated integration by {{span:red__highlight2}}6{{/span}} years" },
-              { "p": { "text": "Numbers based on Study by University of Zurich, Zisler/Bettinger/Backes-Gellner (2024): Impact of the Powercoders Program on Refugee Integration in Switzerland", "class": "source" } },
+              { "p": { "text": "Numbers based on Study by University of Zurich, Zisler/Bettinger/Backes-Gellner (2024).", "class": "source"} },
               { "h3": "Integration rate" },
               { "p": "Jobs / apprenticeships within 3 years of graduation. {{span:red__highlight}}70%{{/span}}" },
-              { "p": { "text": "Ongoing estimation.", "class": "source" } }
+              { "p": { "text": "Ongoing estimation.", "class": "source"} }
             ]
           },
           "gallery": {
-            "type": "a",
+            "type": "",
             "images": [
               "impact_media/pc1.jpg",
               "impact_media/pc2.jpg",
@@ -31,73 +33,232 @@
             ]
           }
         },
+
         {
-          "alternate": true,
-          "id": "womenConnect",
-          "gallery": {
-            "type": "b",
-            "images": [
-              "impact_media/pc1.jpg",
-              "impact_media/pc2.jpg",
-              "impact_media/pc3.jpg"
+          "alternate": false,
+          "id": "highlights",
+          "containerVariant": "card__standAlone2",
+          "card": {
+            "title": "Highlights 2024",
+            "variant": "highlights",
+            "blocks": [
+              { "p": { "text": "Talents have been placed in {{span:red__highlight2}}54{{/span}} internships and {{span:red__highlight2}}1{{/span}} apprenticeship. {{span:red__highlight2}}42{{/span}} found a job in 2024.", "class": "cursive"} },
+              { "p": "{{span:red__highlight2}}NEW{{/span}} ambassador committee with {{span:red__highlight2}}4{{/span}} long-standing volunteers" },
+              { "p": "{{span:red__highlight2}}52{{/span}} bootcamp participants out of {{span:red__highlight2}}533{{/span}} applicants" },
+              { "p": "{{span:red__highlight2}}7{{/span}} diversity & inclusion workshops as new service for our partner companies" }
             ]
           },
+          "gallery": null
+        },
+
+        {
+          "alternate": false,
+          "id": "womenConnect",
           "card": {
             "title": "Women connect",
             "blocks": [
-              { "p": { "text": "_Interactive workshop series aiming to create a safe space and fostering a supportive environment to spark a fire amongst women from refugee or migrant backgrounds to develop their interest in IT by learning from women in tech._", "class": "cursive" } },
+              { "p": { "text": "_Interactive workshop series aiming to create a safe space …_", "class": "cursive"} },
               { "p": "{{span:red__highlight}}+ {{/span}}Internships of 6 to 12 months" },
               { "p": "{{span:red__highlight2}}36{{/span}} Female participants\n{{span:red__highlight2}}15{{/span}} Female workshop leaders" },
               { "p": "{{span:red__highlight2}}90%{{/span}} felt better equipped with the information they needed to build their own IT careers" }
             ]
+          },
+          "gallery": {
+            "type": "b",
+            "images": [
+              "impact_media/pc4.jpg",
+              "impact_media/pc5.jpg",
+              "impact_media/pc6.jpg"
+            ]
           }
-        }
-      ]
-    },
-    {
-      "type": "cards",
-      "rows": [
+        },
+
         {
-          "alternate": false,
+          "alternate": true,
           "id": "digitalLiteracy",
           "card": {
             "title": "Digital literacy",
             "blocks": [
-              { "p": { "text": "_Providing asylum seekers essential digital skills, covering digital devices, online communication, and practical use of applications. Powercoders alumni are volunteering and paying forward as teaching assistants._", "class": "cursive" } },
+              { "p": { "text": "_Providing asylum seekers essential digital skills …_", "class": "cursive"} },
               { "p": "{{span:red__highlight}}+ {{/span}}At Verified Temporary Asylum Centre by Heilsarmee in Bern" },
               { "p": "{{span:red__highlight2}}15{{/span}} asylum seekers\n{{span:red__highlight2}}10{{/span}} alumni volunteers" },
               { "p": "{{span:red__highlight2}}87%{{/span}} will use the digital skills they learn in their everyday lives" }
             ]
           },
-          "gallery": null
+          "gallery": {
+            "type": "c",
+            "images": [
+              "impact_media/pc7.jpg",
+              "impact_media/pc8.jpg"
+            ]
+          }
         },
+
         {
           "alternate": false,
           "id": "futureTalents",
+          "containerVariant":"card__standAlone2",
           "card": {
             "title": "Future talents",
+            "variant": "highlights",
             "blocks": [
-              { "p": { "text": "_Helping young refugees and financially disadvantaged youth access IT apprenticeships in Switzerland. Through a 5-day training, participants develop soft skills and explore IT career paths._", "class": "cursive" } },
+              { "p": { "text": "_Helping young refugees and financially disadvantaged youth access IT apprenticeships in Switzerland._", "class": "cursive"} },
               { "p": "{{span:red__highlight}}+ {{/span}}In Zurich and Lausanne" },
               { "p": "{{span:red__highlight2}}12{{/span}} teenagers took part" },
-              { "p": "{{span:red__highlight2}}5{{/span}} out of them secured an apprenticeship so far" }
+              { "p": "{{span:red__highlight2}}5{{/span}} of them secured an apprenticeship so far" }
             ]
           },
           "gallery": null
         },
+
         {
-          "alternate": false,
+          "alternate": true,
           "id": "bootcamp",
           "card": {
             "title": "Bootcamp",
             "blocks": [
-              { "p": { "text": "_3-month full-time training followed by a 6-12-month internship offered twice a year to help participants from refugee and migrant backgrounds enter the IT workforce by developing IT specialisations and soft skills._", "class": "cursive" } },
+              { "p": { "text": "_3-month full-time training followed by a 6-12-month internship …_", "class": "cursive"} },
               { "p": "{{span:red__highlight}}+ {{/span}}In Bern, Zurich and Lausanne" },
               { "p": "{{span:red__highlight2}}29{{/span}} in spring, {{span:red__highlight2}}23{{/span}} in fall" },
               { "p": "{{span:red__highlight2}}48{{/span}} placed in internships" }
             ]
           },
+          "gallery": {
+            "type": "c",
+            "images": [
+              "impact_media/pc13.jpg",
+              "impact_media/pc14.jpg"
+            ]
+          }
+        },
+
+        {
+          "alternate": false,
+          "id": "events",
+          "card": {
+            "title": "Events",
+            "blocks": [
+              { "p": { "text": "“I lived in my country for 33 years. Today I’m a refugee in Switzerland …”", "class": "cursive"} },
+              { "p": { "text": "Liubov Kulyk, Powercoders alumna at the World Refugee Day at ON AG", "class": "source"} },
+              { "p": "{{span:red__highlight}}+ {{/span}}Expertise in Diversity in tech and in IT work inclusion" },
+              { "p": "{{span:red__highlight}}+ {{/span}}Vibrant community events including career days and cultural workshops" },
+              { "p": "{{span:red__highlight}}+ {{/span}}Supported by alumni sharing their stories" }
+            ]
+          },
+          "gallery": {
+            "type": "c",
+            "images": [
+              "impact_media/pc15.jpg"
+            ]
+          }
+        },
+
+        {
+          "alternate": true,
+          "id": "community",
+          "card": {
+            "title": "Community",
+            "blocks": [
+              { "p": { "text": "“My job coach, Arne, went the extra mile …”", "class": "cursive"} },
+              { "p": { "text": "Anna Ostrowska on her journey with job coach Arne Heise", "class": "source"} },
+              { "p": "{{span:red__highlight2}}167{{/span}} volunteer job coaches" },
+              { "p": "{{span:red__highlight2}}100{{/span}} volunteer IT trainers" },
+              { "p": "{{span:red__highlight2}}62{{/span}} volunteer workshop facilitators" },
+              { "p": "{{span:red__highlight2}}61{{/span}} association members" },
+              { "p": "{{span:red__highlight2}}2{{/span}} new board members" }
+            ]
+          },
+          "gallery": {
+            "type": "c",
+            "images": [
+              "impact_media/pc16.jpg",
+              "impact_media/pc17.jpg"
+            ]
+          }
+        },
+
+        {
+          "alternate": false,
+          "id": "futurecoders",
+          "card": {
+            "title": "Futurecoders",
+            "blocks": [
+              { "p": { "text": "_Offering web development, mobile app development and video-game design courses for 13-20-year-olds in Switzerland._", "class": "cursive"} },
+              { "p": "In {{span:red__highlight2}}8{{/span}} cities in Switzerland\n{{span:red__highlight2}}NEW{{/span}} in Lucerne and Fribourg" },
+              { "p": "{{span:red__highlight2}}331{{/span}} graduates\n{{span:red__highlight2}}16{{/span}} years old on average" },
+              { "p": "{{span:red__highlight2}}8{{/span}} trial days at Amazon, ETH, Exoscale, PwC, UBS and Wipro" }
+            ]
+          },
+          "gallery": {
+            "type": "b",
+            "images": [
+              "impact_media/pc18.jpg",
+              "impact_media/pc19.jpg",
+              "impact_media/pc20.jpg"
+            ]
+          }
+        },
+
+        {
+          "alternate": false,
+          "id": "nutshell",
+          "containerVariant":"card__standAlone2",
+          "card": {
+            "title": "7 years in a nutshell",
+            "variant":"highlights",
+            "blocks": [
+              { "p": { "text": "_From 2017 to 2024, Powercoders is set for success._", "class": "cursive"} },
+              { "p": "{{span:red__highlight2}}372{{/span}} bootcamp participants\n{{span:red__highlight2}}365{{/span}} bootcamp graduates" },
+              { "p": "{{span:red__highlight2}}73%{{/span}} male\n{{span:red__highlight2}}27%{{/span}} female" },
+              { "p": "{{span:red__highlight2}}205{{/span}} internship companies\n{{span:red__highlight2}}30%{{/span}} offering several internships" },
+              { "p": "{{span:red__highlight2}}28{{/span}} career days" }
+            ]
+          },
           "gallery": null
+        },
+
+        {
+          "alternate": false,
+          "id": "lookout",
+          "card": {
+            "title": "Lookout",
+            "blocks": [
+              { "p": { "text": "“In 2025, I look forward to helping participants cross the agentic boundaries of AI & IT …”", "class": "cursive"} },
+              { "p": { "text": "David Garrett, volunteer IT trainer", "class": "source"} },
+              { "p": "{{span:red__highlight2}}NEW{{/span}} alumni academy: workshops for our alumni community" },
+              { "p": "{{span:red__highlight2}}NEW{{/span}} piscine prep by Powercoders: pilot training program in collaboration with 42Lausanne" }
+            ]
+          },
+          "gallery": {
+            "type": "",
+            "images": [
+              "impact_media/pc21.jpg",
+              "impact_media/pc22.jpg",
+              "impact_media/pc23.jpg"
+            ]
+          }
+        },
+
+        {
+          "alternate": true,
+          "id": "thankYou",
+          "card": {
+            "title": "Thank you!",
+            "blocks": [
+              { "p": { "text": "We couldn’t do our work without all the people who make our programs possible:", "class": "cursive"} },
+              { "p": "{{span:red__highlight}}+ {{/span}}partner companies, cantons & federal government" },
+              { "p": "{{span:red__highlight}}+ {{/span}}donors & association members" },
+              { "p": "{{span:red__highlight}}+ {{/span}}board ambassador committee" },
+              { "p": "{{span:red__highlight}}+ {{/span}}our amazing team" }
+            ]
+          },
+          "gallery": {
+            "type": "c",
+            "images": [
+              "impact_media/pc24.jpg",
+              "impact_media/pc25.jpg"
+            ]
+          }
         }
       ]
     }

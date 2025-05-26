@@ -36,6 +36,7 @@ button:hover{
     z-index: 10;
 }
 
+
 .navbar a{
     flex: 1;
     padding: 20px;
@@ -62,7 +63,6 @@ button:hover{
     z-index: 1;
     top: -62px;
     padding: 15px;
-
 }
 
 .header h1{
@@ -85,6 +85,7 @@ button:hover{
     font-weight: 400;
     font-size: 25px;
 }
+
 
 main{
     
@@ -123,8 +124,7 @@ h3{
     padding: 40px;
     padding-left: 50px;
     padding-right: 50px;
-    height: 100vh;
-}
+
 .alternate{
     background-color: #F6F6F6; 
     

@@ -3,9 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit page</title>
+    <title>PowerCoders Impact Report - Admin Panel</title>
+    <link rel="stylesheet" href="edit.css">
 </head>
 <body>
-    
+    <div class="admin-container">
+        <header>
+            <h1>PowerCoders Impact Report - Admin Panel</h1>
+            <p>Edit and update the content of the main page</p>
+        </header>
+
+        <main>
+            <form id="editForm">
+                <section class="edit-section">
+                    <h2>Header Section</h2>
+                    <div class="form-group">
+                        <label for="headerTitle">Header Title</label>
+                        <input type="text" id="headerTitle" name="headerTitle" value="Impacting lives by teaching digital skills">
+                    </div>
+                </section>
+
+                <section class="edit-section">
+                    <h2>About Section</h2>
+                    <div class="form-group">
+                        <label for="aboutTitle">About Title</label>
+                        <input type="text" id="aboutTitle" name="aboutTitle" value="Why Powercoders?">
+                    </div>
+                    <div class="form-group">
+                        <label for="aboutContent1">About Content 1</label>
+                        <textarea id="aboutContent1" name="aboutContent1" rows="3">Switzerland will soon be short of almost 40,000 ICT specialists. At the same time, there is an increasing number of well-qualified, highly motivated people from refugee and migrant backgrounds who are struggling to gain a foothold in the labor market.</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="aboutContent2">About Content 2</label>
+                        <textarea id="aboutContent2" name="aboutContent2" rows="2">There's one solution for two problems:</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="aboutHighlight">Highlighted Text</label>
+                        <input type="text" id="aboutHighlight" name="aboutHighlight" value="Empowering refugees & migrants for an IT career.">
+                    </div>
+                    <div class="form-group">
+                        <label for="aboutContent3">About Content 3</label>
+                        <textarea id="aboutContent3" name="aboutContent3" rows="2">Powercoders is an ICT job integration program for people from refugee and migrant backgrounds.</textarea>
+                    </div>
+                </section>
+
+                <section class="edit-section">
+                    <h2>Impact Section</h2>
+                    <div class="form-group">
+                        <label for="impactTitle">Impact Title</label>
+                        <input type="text" id="impactTitle" name="impactTitle" value="Impact">
+                    </div>
+                    <div class="form-group">
+                        <label for="impactContent1">Impact Content 1</label>
+                        <textarea id="impactContent1" name="impactContent1" rows="3">We are an impact-driven organization and therefore prioritize making a positive impact in the world. We collaborate with other organizations to achieve our goals and jointly work towards achieving the Sustainable Development Goals.</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="impactContent2">Impact Content 2</label>
+                        <textarea id="impactContent2" name="impactContent2" rows="3">We focus on "Quality Education", "Decent Work" and "Reduced Inequalities" from the Sustainable Development Goals Agenda 2030.</textarea>
+                    </div>
+                </section>
+
+                <section class="edit-section">
+                    <h2>Impact Reports</h2>
+                    <div class="form-group">
+                        <label for="reportsTitle">Reports Title</label>
+                        <input type="text" id="reportsTitle" name="reportsTitle" value="In figures">
+                    </div>
+                    <div class="form-group">
+                        <label for="report2024">2024 Report Image</label>
+                        <input type="file" id="report2024" name="report2024" accept="image/*">
+                        <input type="text" id="report2024Alt" name="report2024Alt" placeholder="Alt text for 2024 report">
+                    </div>
+                    <div class="form-group">
+                        <label for="report2023">2023 Report Image</label>
+                        <input type="file" id="report2023" name="report2023" accept="image/*">
+                        <input type="text" id="report2023Alt" name="report2023Alt" placeholder="Alt text for 2023 report">
+                    </div>
+                    <div class="form-group">
+                        <label for="report2022">2022 Report Image</label>
+                        <input type="file" id="report2022" name="report2022" accept="image/*">
+                        <input type="text" id="report2022Alt" name="report2022Alt" placeholder="Alt text for 2022 report">
+                    </div>
+                    <div class="form-group">
+                        <label for="report2021">2021 Report Image</label>
+                        <input type="file" id="report2021" name="report2021" accept="image/*">
+                        <input type="text" id="report2021Alt" name="report2021Alt" placeholder="Alt text for 2021 report">
+                    </div>
+                </section>
+
+                <section class="edit-section">
+                    <h2>Projects Section</h2>
+                    <div class="form-group">
+                        <label for="projectsTitle">Projects Title</label>
+                        <input type="text" id="projectsTitle" name="projectsTitle" value="Projects & Collaborations">
+                    </div>
+                    <div class="form-group">
+                        <label for="projectsIntro">Projects Introduction</label>
+                        <textarea id="projectsIntro" name="projectsIntro" rows="3">The digital transformation increasingly requires innovative educational concepts. Together with our partners, we create opportunities for digital training to promote equal opportunities for disadvantaged people.</textarea>
+                    </div>
+
+                    <!-- Project 1 -->
+                    <div class="project-group">
+                        <h3>Project 1 - Powercoders International</h3>
+                        <div class="form-group">
+                            <label for="project1Image">Project 1 Image</label>
+                            <input type="file" id="project1Image" name="project1Image" accept="image/*">
+                            <input type="text" id="project1Alt" name="project1Alt" placeholder="Alt text for project 1">
+                        </div>
+                        <div class="form-group">
+                            <label for="project1Title">Project 1 Title</label>
+                            <input type="text" id="project1Title" name="project1Title" value="Powercoders International">
+                        </div>
+                        <div class="form-group">
+                            <label for="project1Points">Project 1 Points (one per line)</label>
+                            <textarea id="project1Points" name="project1Points" rows="3">Bring Powercoders to your city
+Join our growing community
+Gain access to the Powercoders Wiki</textarea>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-group">
+                        <h3>Project 2 - Futurecoders</h3>
+                        <div class="form-group">
+                            <label for="project2Image">Project 2 Image</label>
+                            <input type="file" id="project2Image" name="project2Image" accept="image/*">
+                            <input type="text" id="project2Alt" name="project2Alt" placeholder="Alt text for project 2">
+                        </div>
+                        <div class="form-group">
+                            <label for="project2Title">Project 2 Title</label>
+                            <input type="text" id="project2Title" name="project2Title" value="Futurecoders">
+                        </div>
+                        <div class="form-group">
+                            <label for="project2Points">Project 2 Points (one per line)</label>
+                            <textarea id="project2Points" name="project2Points" rows="3">For 13-18 year olds
+                                Learn to program a website or deisgn a video game
+                                Have fun in courses & holiday camps</textarea>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 - Digital Upskilling -->
+                    <div class="project-group">
+                        <h3>Project 3 - Digital Upskilling</h3>
+                        <div class="form-group">
+                            <label for="project3Image">Project 3 Image</label>
+                            <input type="file" id="project3Image" name="project3Image" accept="image/*">
+                            <input type="text" id="project3Alt" name="project3Alt" placeholder="Alt text for project 3">
+                        </div>
+                        <div class="form-group">
+                            <label for="project3Title">Project 3 Title</label>
+                            <input type="text" id="project3Title" name="project3Title" value="Digital Upskilling">
+                        </div>
+                        <div class="form-group">
+                            <label for="project3Points">Project 3 Points (one per line)</label>
+                            <textarea id="project3Points" name="project3Points" rows="3">Pilot project: Digital upskilling @ Die Schweizere Post
+Part of the training was conducted by their apprentices
+Equip employees with digital skills needed for work and private life</textarea>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 - Remotecoders -->
+                    <div class="project-group">
+                        <h3>Project 4 - Remotecoders</h3>
+                        <div class="form-group">
+                            <label for="project4Image">Project 4 Image</label>
+                            <input type="file" id="project4Image" name="project4Image" accept="image/*">
+                            <input type="text" id="project4Alt" name="project4Alt" placeholder="Alt text for project 4">
+                        </div>
+                        <div class="form-group">
+                            <label for="project4Title">Project 4 Title</label>
+                            <input type="text" id="project4Title" name="project4Title" value="Remotecoders">
+                        </div>
+                        <div class="form-group">
+                            <label for="project4Points">Project 4 Points (one per line)</label>
+                            <textarea id="project4Points" name="project4Points" rows="3">IT Nearshoring for Good
+Recruits, trains, and employs vulnerable local talent in Cairo
+European IT companies get vetted teams</textarea>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 - Inclusion in Action -->
+                    <div class="project-group">
+                        <h3>Project 5 - Inclusion in Action</h3>
+                        <div class="form-group">
+                            <label for="project5Image">Project 5 Image</label>
+                            <input type="file" id="project5Image" name="project5Image" accept="image/*">
+                            <input type="text" id="project5Alt" name="project5Alt" placeholder="Alt text for project 5">
+                        </div>
+                        <div class="form-group">
+                            <label for="project5Title">Project 5 Title</label>
+                            <input type="text" id="project5Title" name="project5Title" value="Inclusion in Action">
+                        </div>
+                        <div class="form-group">
+                            <label for="project5Points">Project 5 Points (one per line)</label>
+                            <textarea id="project5Points" name="project5Points" rows="3">Deepen your understanding for diversity of thought
+Utilize the diverse perspectives at your workplace
+EMpower your team for an inclusive workplace</textarea>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="edit-section">
+                    <h2>Get Involved Section</h2>
+                    <div class="form-group">
+                        <label for="involvedTitle">Involved Title</label>
+                        <input type="text" id="involvedTitle" name="involvedTitle" value="Get Involved">
+                    </div>
+                    <div class="form-group">
+                        <label for="involvedContent1">Involved Content 1</label>
+                        <textarea id="involvedContent1" name="involvedContent1" rows="3">Do you have an idea for a new project? Would you like to partner with us to create an impact for disadvantaged people with digital training?</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="involvedContent2">Involved Content 2</label>
+                        <textarea id="involvedContent2" name="involvedContent2" rows="2">Let's exchange ideas over coffee:</textarea>
+                    </div>
+                </section>
+
+                <div class="form-actions">
+                    <button type="submit" class="save-btn">Save Changes</button>
+                    <button type="button" class="preview-btn">Preview Changes</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="edit.js"></script>
 </body>
 </html>

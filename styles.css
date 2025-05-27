@@ -124,6 +124,8 @@ h3{
     padding: 40px;
     padding-left: 50px;
     padding-right: 50px;
+    height: 100vh;
+}
 
 .alternate{
     background-color: #F6F6F6; 

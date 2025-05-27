@@ -8,5 +8,16 @@
     "filename": "impact_2024.json",
     "title":   "Impact 2023",
     "img":     "data/impact_media/impact2023.jpg"
+  },
+  {
+    "filename": "impact_2023.json",
+    "title":    "Impact 2023",
+    "img":      "data/impact_media/impact2023-thumb.jpg"
+  },
+  {
+    "filename": "impact_2022.json",
+    "title":    "Impact 2022",
+    "img":      "data/impact_media/impact2022-thumb.jpg"
   }
+
 ]

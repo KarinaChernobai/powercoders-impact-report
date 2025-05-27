@@ -1,26 +1,126 @@
-import { JsonData, Page } from './types.js';
+document.addEventListener('DOMContentLoaded', () => {
+    const editForm = document.getElementById('editForm');
+    const previewBtn = document.querySelector('.preview-btn');
+    const saveBtn = document.querySelector('.save-btn');
 
-function validate() {
-    // title and at least one image is required
-}
+    function formatText(text) {
+        text = text.replace(/(\d+%|\d+)(?=\s|$)/g, '<span class="red__highlight2">$1</span>');
+        
+        text = text.replace(/NEW/g, '<span class="red__highlight2">NEW</span>');
+        
+        text = text.replace(/\n/g, '<br>');
+        
+        return text;
+    }
 
-/**
- * Creates json object and saves it.
- * @param {string} filePath - The path to the json file.
- *  @param {JsonData} data - The data object.
- * @throws {Error} Throws an error if filePath is not provided.
- * @throws {Error} Throws an error if data is not provided.
- */
-function createJson(filePath, data) {
-    
-}
+    const fileInputs = document.querySelectorAll('input[type="file"]');
+    fileInputs.forEach(input => {
+        input.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
 
-// saves the content into the new json file
-function submit() {
-    validate();
-    createJson();
-}
+                    let preview = input.parentElement.querySelector('img');
+                    if (!preview) {
+                        preview = document.createElement('img');
+                        input.parentElement.appendChild(preview);
+                    }
+                    preview.src = e.target.result;
+                    preview.style.maxWidth = '200px';
+                    preview.style.marginTop = '10px';
+                    preview.style.borderRadius = '4px';
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
 
-document.addEventListener("DOMContentLoaded", async () => {
-    // add event listener to the submit button
-});
+    previewBtn.addEventListener('click', () => {
+        const formData = new FormData(editForm);
+        const previewData = {};
+        
+        for (let [key, value] of formData.entries()) {
+            if (key.endsWith('Image')) {
+                const fileInput = document.getElementById(key);
+                if (fileInput.files[0]) {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        previewData[key] = e.target.result;
+
+                        localStorage.setItem('previewData', JSON.stringify(previewData));
+
+                        window.open('impact.html?preview=true', '_blank');
+                    };
+                    reader.readAsDataURL(fileInput.files[0]);
+                }
+            } else {
+
+                previewData[key] = formatText(value);
+            }
+        }
+
+        if (!Object.keys(previewData).some(key => key.endsWith('Image'))) {
+            localStorage.setItem('previewData', JSON.stringify(previewData));
+            window.open('impact.html?preview=true', '_blank');
+        }
+    });
+
+    editForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const formData = new FormData(editForm);
+        const data = {};
+        
+        for (let [key, value] of formData.entries()) {
+            if (key.endsWith('Image')) {
+                const fileInput = document.getElementById(key);
+                if (fileInput.files[0]) {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        data[key] = e.target.result;
+
+                        localStorage.setItem('previewData', JSON.stringify(data));
+                    };
+                    reader.readAsDataURL(fileInput.files[0]);
+                }
+            } else {
+
+                data[key] = formatText(value);
+            }
+        }
+
+        try {
+           
+            alert('Changes saved successfully!');
+            
+            localStorage.setItem('previewData', JSON.stringify(data));
+        } catch (error) {
+            console.error('Error saving changes:', error);
+            alert('Error saving changes. Please try again.');
+        }
+    });
+
+    const savedData = localStorage.getItem('previewData');
+    if (savedData) {
+        const data = JSON.parse(savedData);
+        for (let [key, value] of Object.entries(data)) {
+            const input = document.getElementById(key);
+            if (input) {
+                if (key.endsWith('Image')) {
+                  
+                    const fileInput = input;
+                    const preview = document.createElement('img');
+                    preview.src = value;
+                    preview.style.maxWidth = '200px';
+                    preview.style.marginTop = '10px';
+                    preview.style.borderRadius = '4px';
+                    fileInput.parentElement.appendChild(preview);
+                } else {
+
+                    input.value = value.replace(/<[^>]*>/g, '').replace(/<br>/g, '\n');
+                }
+            }
+        }
+    }
+}); 

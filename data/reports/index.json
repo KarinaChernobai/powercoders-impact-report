@@ -1,0 +1,12 @@
+[
+  {
+    "filename": "impact_2025.json",
+    "title":   "Impact 2024",
+    "img":     "data/impact_media/impact2024.jpg"
+  },
+  {
+    "filename": "impact_2024.json",
+    "title":   "Impact 2023",
+    "img":     "data/impact_media/impact2023.jpg"
+  }
+]

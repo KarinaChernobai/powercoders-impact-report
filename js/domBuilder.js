@@ -1,4 +1,4 @@
-import { MEDIA_ROOT} from './domBuilderMain.js';
+import { MEDIA_ROOT} from './config.js';
 
 /* ---------- PUBLIC: buildReportDom(json) ---------- */
 export function buildReportDom(report) {

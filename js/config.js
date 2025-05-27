@@ -1,10 +1,11 @@
 import { buildReportDom }  from './domBuilder.js';
 
 /* ----------------  CHANGE PATHS ONCE HERE  ---------------- */
-export const JSON_ROOT  = '../data/';     // Folder for *.json reports
+export const JSON_ROOT  = '../data/reports/';     // Folder for *.json reports
 export const MEDIA_ROOT = '../';          // Prefix for every img / bg
 
 export const TARGET_TAG = 'main';         // Tag where to insert render
+
 
 
 document.addEventListener('DOMContentLoaded', async () => {

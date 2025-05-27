@@ -112,5 +112,5 @@ Commit the new JSON, images, CSS. Push to `main` – static host updates automat
 
 > “Here is the JSON spec v 1.2 and page 5 of our PDF.  
 > Convert it into a CardRow (`id:"futureJobs"`, `gallery.type:"b"`).  
-> Mark numbers in red (`red__highlight2`).  
+> Mark numbers inside bloks in red (`red__highlight2`/`red__highlight`).  
 > Use long‑form blocks for citations.”

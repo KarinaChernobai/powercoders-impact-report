@@ -1,0 +1,175 @@
+{
+  "header": {
+    "title": "Impact {{span:red__highlight}}2023{{/span}}",
+    "image": "data/impact_media/impact2023-hero.jpg"
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "rows": [
+        {
+          "alternate": false,
+          "id": "highlights2023",
+          "containerVariant": "card__standAlone2",
+          "card": {
+            "title": "Highlights 2023",
+            "variant": "highlights",
+            "blocks": [
+              {
+                "p": {
+                  "text": "_31st Career Day in Lausanne & Zurich \u2014 first ever 50/50 gender ratio in Fall Bootcamp._",
+                  "class": "cursive"
+                }
+              },
+              {
+                "p": "{{span:red__highlight2}}50{{/span}} graduates ({{span:red__highlight2}}15{{/span}} women / {{span:red__highlight2}}35{{/span}} men)"
+              },
+              {
+                "p": "{{span:red__highlight2}}Swiss Diversity Night Award{{/span}} for diversity efforts"
+              },
+              {
+                "p": "{{span:red__highlight2}}Community Party{{/span}} celebrated alumni & volunteers"
+              }
+            ]
+          },
+          "gallery": null
+        },
+        {
+          "alternate": true,
+          "id": "impactNumbers",
+          "card": {
+            "title": "Impact Numbers",
+            "blocks": [
+              {
+                "h3": "Bootcamp Impact 2017\u20132023"
+              },
+              {
+                "p": "{{span:red__highlight2}}314{{/span}} graduates\u00a0 /\u00a0 {{span:red__highlight2}}170{{/span}} internship companies"
+              },
+              {
+                "p": "{{span:red__highlight2}}93%{{/span}} internship placement rate"
+              },
+              {
+                "p": "{{span:red__highlight2}}60%{{/span}} integration rate (job/apprenticeship within 3\u00a0yrs)"
+              },
+              {
+                "p": "{{span:red__highlight2}}532{{/span}} total applications in 2023"
+              },
+              {
+                "p": {
+                  "text": "Source: internal program statistics.",
+                  "class": "source"
+                }
+              }
+            ]
+          },
+          "gallery": {
+            "type": "a",
+            "images": [
+              "data/impact_media/impact2023-numbers.jpg"
+            ]
+          }
+        },
+        {
+          "alternate": false,
+          "id": "womenConnect2023",
+          "card": {
+            "title": "Women Connect",
+            "blocks": [
+              {
+                "p": {
+                  "text": "_Pilot programme empowering migrant & refugee women in IT._",
+                  "class": "cursive"
+                }
+              },
+              {
+                "p": "{{span:red__highlight2}}16{{/span}} core participants"
+              },
+              {
+                "p": "{{span:red__highlight2}}9{{/span}} workshops \u2022 {{span:red__highlight2}}109{{/span}} total attendances"
+              },
+              {
+                "p": "{{span:red__highlight2}}10{{/span}} women completed IT assessments"
+              }
+            ]
+          },
+          "gallery": {
+            "type": "b",
+            "images": [
+              "data/impact_media/impact2023-wc1.jpg",
+              "data/impact_media/impact2023-wc2.jpg",
+              "data/impact_media/impact2023-wc3.jpg"
+            ]
+          }
+        },
+        {
+          "alternate": true,
+          "id": "futurecoders2023",
+          "card": {
+            "title": "Futurecoders",
+            "blocks": [
+              {
+                "p": {
+                  "text": "_Spin\u2011off giving teens digital skills and IT exposure._",
+                  "class": "cursive"
+                }
+              },
+              {
+                "p": "{{span:red__highlight2}}18{{/span}} web\u2011dev courses \u2022 {{span:red__highlight2}}17{{/span}} video\u2011game courses"
+              },
+              {
+                "p": "{{span:red__highlight2}}328{{/span}} participants ({{span:red__highlight2}}21.6%{{/span}} female)"
+              },
+              {
+                "p": "{{span:red__highlight2}}75{{/span}} teens attended IT Trial Days"
+              }
+            ]
+          },
+          "gallery": {
+            "type": "b",
+            "images": [
+              "data/impact_media/impact2023-fc1.jpg",
+              "data/impact_media/impact2023-fc2.jpg",
+              "data/impact_media/impact2023-fc3.jpg"
+            ]
+          }
+        },
+        {
+          "alternate": false,
+          "id": "thankYou2023",
+          "containerVariant": "card__standAlone2",
+          "card": {
+            "title": "Thank You!",
+            "blocks": [
+              {
+                "p": {
+                  "text": "Our impact is powered by partners and volunteers:",
+                  "class": "cursive"
+                }
+              },
+              {
+                "p": "{{span:red__highlight2}}33{{/span}} partner companies"
+              },
+              {
+                "p": "{{span:red__highlight2}}129{{/span}} job coaches"
+              },
+              {
+                "p": "{{span:red__highlight2}}78{{/span}} social & business skills facilitators"
+              },
+              {
+                "p": "{{span:red__highlight2}}80{{/span}} IT trainers"
+              }
+            ]
+          },
+          "gallery": {
+            "type": "c",
+            "images": [
+              "data/impact_media/impact2023-thx1.jpg",
+              "data/impact_media/impact2023-thx2.jpg"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

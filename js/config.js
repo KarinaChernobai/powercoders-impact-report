@@ -1,8 +1,7 @@
 import { buildReportDom }  from './domBuilder.js';
 
 /* ----------------  CHANGE PATHS ONCE HERE  ---------------- */
-const isGithub = window.location.hostname.includes('github.io');
-export const JSON_ROOT  = (isGithub ? '/powercoders-impact-report' : '') + '/data/reports/';     // Folder for *.json reports
+export const JSON_ROOT  = '../data/reports/';     // Folder for *.json reports
 
 export const MEDIA_ROOT = '../';          // Prefix for every img / bg
 

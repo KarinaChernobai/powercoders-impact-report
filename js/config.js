@@ -1,8 +1,9 @@
 import { buildReportDom }  from './domBuilder.js';
 
 /* ----------------  CHANGE PATHS ONCE HERE  ---------------- */
-const BASE_PATH = window.location.origin + (window.location.pathname.includes('powercoders-impact-report') ? '/powercoders-impact-report' : '');
-export const JSON_ROOT  = BASE_PATH + '/data/reports/';     // Folder for *.json reports
+const isGithub = window.location.hostname.includes('github.io');
+export const JSON_ROOT  = (isGithub ? '/powercoders-impact-report' : '') + '/data/reports/';     // Folder for *.json reports
+
 export const MEDIA_ROOT = '../';          // Prefix for every img / bg
 
 export const TARGET_TAG = 'main';         // Tag where to insert render

@@ -74,6 +74,12 @@ button:hover{
     margin-right: 20px;
 }
 
+p:has(.red__highlight + .red__highlight_text) {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}  
+
 .red__highlight{
     color: #C42E4C;
     font-weight: 400;
@@ -125,10 +131,12 @@ h3{
     padding-left: 50px;
     padding-right: 50px;
     height: 100vh;
+    width: 100%;
 }
 
 .alternate{
     background-color: #F6F6F6; 
+    width:100%
     
 }
 .card{

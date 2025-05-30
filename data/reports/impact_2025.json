@@ -58,7 +58,7 @@
             "title": "Women connect",
             "blocks": [
               { "p": { "text": "_Interactive workshop series aiming to create a safe space …_", "class": "cursive"} },
-              { "p": "{{span:red__highlight}}+ {{/span}}Internships of 6 to 12 months" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}Internships of 6 to 12 months {{/span}}" },
               { "p": "{{span:red__highlight2}}36{{/span}} Female participants\n{{span:red__highlight2}}15{{/span}} Female workshop leaders" },
               { "p": "{{span:red__highlight2}}90%{{/span}} felt better equipped with the information they needed to build their own IT careers" }
             ]
@@ -80,7 +80,7 @@
             "title": "Digital literacy",
             "blocks": [
               { "p": { "text": "_Providing asylum seekers essential digital skills …_", "class": "cursive"} },
-              { "p": "{{span:red__highlight}}+ {{/span}}At Verified Temporary Asylum Centre by Heilsarmee in Bern" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}At Verified Temporary Asylum Centre by Heilsarmee in Bern{{/span}}" },
               { "p": "{{span:red__highlight2}}15{{/span}} asylum seekers\n{{span:red__highlight2}}10{{/span}} alumni volunteers" },
               { "p": "{{span:red__highlight2}}87%{{/span}} will use the digital skills they learn in their everyday lives" }
             ]
@@ -103,7 +103,7 @@
             "variant": "highlights",
             "blocks": [
               { "p": { "text": "_Helping young refugees and financially disadvantaged youth access IT apprenticeships in Switzerland._", "class": "cursive"} },
-              { "p": "{{span:red__highlight}}+ {{/span}}In Zurich and Lausanne" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}In Zurich and Lausanne{{/span}}" },
               { "p": "{{span:red__highlight2}}12{{/span}} teenagers took part" },
               { "p": "{{span:red__highlight2}}5{{/span}} of them secured an apprenticeship so far" }
             ]
@@ -118,7 +118,7 @@
             "title": "Bootcamp",
             "blocks": [
               { "p": { "text": "_3-month full-time training followed by a 6-12-month internship …_", "class": "cursive"} },
-              { "p": "{{span:red__highlight}}+ {{/span}}In Bern, Zurich and Lausanne" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}In Bern, Zurich and Lausanne{{/span}}" },
               { "p": "{{span:red__highlight2}}29{{/span}} in spring, {{span:red__highlight2}}23{{/span}} in fall" },
               { "p": "{{span:red__highlight2}}48{{/span}} placed in internships" }
             ]
@@ -140,9 +140,9 @@
             "blocks": [
               { "p": { "text": "“I lived in my country for 33 years. Today I’m a refugee in Switzerland …”", "class": "cursive"} },
               { "p": { "text": "Liubov Kulyk, Powercoders alumna at the World Refugee Day at ON AG", "class": "source"} },
-              { "p": "{{span:red__highlight}}+ {{/span}}Expertise in Diversity in tech and in IT work inclusion" },
-              { "p": "{{span:red__highlight}}+ {{/span}}Vibrant community events including career days and cultural workshops" },
-              { "p": "{{span:red__highlight}}+ {{/span}}Supported by alumni sharing their stories" }
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}Expertise in Diversity in tech and in IT work inclusion{{/span}}" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}Vibrant community events including career days and cultural workshops{{/span}}" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}Supported by alumni sharing their stories{{/span}}" }
             ]
           },
           "gallery": {
@@ -246,10 +246,10 @@
             "title": "Thank you!",
             "blocks": [
               { "p": { "text": "We couldn’t do our work without all the people who make our programs possible:", "class": "cursive"} },
-              { "p": "{{span:red__highlight}}+ {{/span}}partner companies, cantons & federal government" },
-              { "p": "{{span:red__highlight}}+ {{/span}}donors & association members" },
-              { "p": "{{span:red__highlight}}+ {{/span}}board ambassador committee" },
-              { "p": "{{span:red__highlight}}+ {{/span}}our amazing team" }
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}partner companies, cantons & federal government{{/span}}" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}donors & association members{{/span}}" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}board ambassador committee{{/span}}" },
+              { "p": "{{span:red__highlight}}+ {{/span}}{{span:red__highlight_text}}our amazing team{{/span}}" }
             ]
           },
           "gallery": {

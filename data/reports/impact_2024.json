@@ -1,17 +1,207 @@
 {
-    "year": 2024,
-    "pages": [
-        {
-            "title": "work integratio",
-            "images": ["link", "link"],
-            "paragraph": "Interactive workshop series aiming to create a safe space and fostering a supportive environment to spark a fire amongst women from refugee or migrant backgrounds to develop their interest in IT by learning from women intech.",
-            "highlights": ["highlight1", "highlight2"]
-        },
-        {
-            "title": "work integratio",
-            "images": ["link", "link"],
-            "paragraph": "Interactive workshop series aiming to create a safe space and fostering a supportive environment to spark a fire amongst women from refugee or migrant backgrounds to develop their interest in IT by learning from women intech.",
-            "highlights": ["highlight1", "highlight2"]
-        }
+    "header": {
+      "title": "Impact {{span:red__highlight}}2024{{/span}}",
+      "image": "data/impact_media/impact2022-hero.jpg"
+    },
+    "sections": [
+      {
+        "type": "cards",
+        "rows": [
+          {
+            "alternate": false,
+            "id": "highlights2024",
+            "containerVariant": "card__standAlone2",
+            "card": {
+              "title": "2024 in a Nutshell",
+              "variant": "highlights",
+              "blocks": [
+                {
+                  "p": {
+                    "text": "_Talents have been placed in 54 internships and 1 apprenticeship. 42 found a job in 2024._",
+                    "class": "cursive"
+                  }
+                },
+                {
+                  "p": "{{span:red__highlight2}}533{{/span}} applications received in 2022"
+                },
+                {
+                  "p": "{{span:red__highlight2}}52{{/span}} Bootcamp participants (Spring & Fall)"
+                },
+                {
+                  "p": "{{span:red__highlight2}}20{{/span}} joined AWS\u00a0re/START pilot"
+                },
+                {
+                  "p": "{{span:red__highlight2}}42{{/span}} found a job\u00a0 in 2024"
+                }
+              ]
+            },
+            "gallery": null
+          },
+          {
+            "alternate": true,
+            "id": "impactNumbers2022",
+            "card": {
+              "title": "Six Years of Impact (2017\u20132022)",
+              "blocks": [
+                {
+                  "h3": "Key metrics"
+                },
+                {
+                  "p": "{{span:red__highlight2}}247{{/span}} graduates \u00a0/\u00a0 {{span:red__highlight2}}143{{/span}} partner companies"
+                },
+                {
+                  "p": "{{span:red__highlight2}}2800{{/span}} job interviews \u00a0/\u00a0 {{span:red__highlight2}}536{{/span}} volunteers"
+                },
+                {
+                  "p": "{{span:red__highlight2}}18{{/span}} Career Days organised"
+                },
+                {
+                  "p": "{{span:red__highlight2}}60%{{/span}} internship placement rate"
+                },
+                {
+                  "p": "{{span:red__highlight2}}23%{{/span}} employment within three years"
+                },
+                {
+                  "p": "{{span:red__highlight2}}93%{{/span}} internship success rate"
+                },
+                {
+                  "p": {
+                    "text": "Source: internal statistics, 2022.",
+                    "class": "source"
+                  }
+                }
+              ]
+            },
+            "gallery": {
+              "type": "a",
+              "images": [
+                "data/impact_media/impact2022-numbers.jpg"
+              ]
+            }
+          },
+          {
+            "alternate": false,
+            "id": "programs2022",
+            "card": {
+              "title": "Programs & Initiatives 2022",
+              "blocks": [
+                {
+                  "p": {
+                    "text": "_Expanded offerings to match surging demand from refugees (war in Ukraine, global crises)._",
+                    "class": "cursive"
+                  }
+                },
+                {
+                  "h4": "Bootcamp"
+                },
+                {
+                  "p": "3\u2011month training + 6\u201312\u00a0month internship \u2014 {{span:red__highlight2}}2{{/span}} cohorts, {{span:red__highlight2}}48{{/span}} participants"
+                },
+                {
+                  "h4": "AWS\u00a0re/START"
+                },
+                {
+                  "p": "12\u2011week cloud certificate, {{span:red__highlight2}}20{{/span}} participants"
+                },
+                {
+                  "h4": "Career\u00a0Boost"
+                },
+                {
+                  "p": "{{span:red__highlight2}}18{{/span}} refugees received mentorship and application training"
+                },
+                {
+                  "h4": "Spin\u2011offs"
+                },
+                {
+                  "p": "Futurecoders (teens), Remotecoders (IT nearshoring for good)"
+                },
+                {
+                  "h4": "International"
+                },
+                {
+                  "p": "Powercoders Italy and Spain run by local teams"
+                }
+              ]
+            },
+            "gallery": {
+              "type": "b",
+              "images": [
+                "data/impact_media/impact2022-bootcamp1.jpg",
+                "data/impact_media/impact2022-bootcamp2.jpg",
+                "data/impact_media/impact2022-careerday.jpg"
+              ]
+            }
+          },
+          {
+            "alternate": true,
+            "id": "figures2022",
+            "card": {
+              "title": "In Figures",
+              "blocks": [
+                {
+                  "p": "{{span:red__highlight2}}100\u00a0m+{{/span}} displaced people worldwide"
+                },
+                {
+                  "p": "{{span:red__highlight2}}200\u00a0k{{/span}} displaced in Switzerland"
+                },
+                {
+                  "p": "{{span:red__highlight2}}120\u00a0000{{/span}} ICT specialists needed by 2030 (CH)"
+                },
+                {
+                  "p": "{{span:red__highlight2}}38\u00a0700{{/span}} shortage already today"
+                }
+              ]
+            },
+            "gallery": {
+              "type": "c",
+              "images": [
+                "data/impact_media/impact2022-glance1.jpg",
+                "data/impact_media/impact2022-glance2.jpg"
+              ]
+            }
+          },
+          {
+            "alternate": false,
+            "id": "thankYou2022",
+            "containerVariant": "card__standAlone2",
+            "card": {
+              "title": "Stronger Together",
+              "blocks": [
+                {
+                  "p": {
+                    "text": "We wouldn\u2019t achieve impact without the people who commit hands\u2011on:",
+                    "class": "cursive"
+                  }
+                },
+                {
+                  "p": "{{span:red__highlight}}+ {{/span}}volunteers, internship partners, donors"
+                },
+                {
+                  "p": "{{span:red__highlight}}+ {{/span}}cantons & federal government"
+                },
+                {
+                  "p": "{{span:red__highlight}}+ {{/span}}alumni community"
+                },
+                {
+                  "p": "_\u00abStart today, start from somewhere \u2014 things will evolve from there.\u00bb_"
+                },
+                {
+                  "p": {
+                    "text": "\u2014\u00a0Jean\u00a0C\u00e9dric\u00a0Ntwari, Front\u2011end Engineer @\u00a0On, Powercoders alumnus",
+                    "class": "source"
+                  }
+                }
+              ]
+            },
+            "gallery": {
+              "type": "c",
+              "images": [
+                "data/impact_media/impact2022-thankyou1.jpg",
+                "data/impact_media/impact2022-thankyou2.jpg"
+              ]
+            }
+          }
+        ]
+      }
     ]
-}
+  }

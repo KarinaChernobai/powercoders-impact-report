@@ -98,6 +98,12 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Changes saved successfully!');
             
             localStorage.setItem('previewData', JSON.stringify(data));
+
+            // var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
+            // var dlAnchorElem = document.getElementById('downloadAnchorElem');
+            // dlAnchorElem.setAttribute("href",     dataStr     );
+            // dlAnchorElem.setAttribute("download", "scene.json");
+            // dlAnchorElem.click();
         } catch (error) {
             console.error('Error saving changes:', error);
             alert('Error saving changes. Please try again.');

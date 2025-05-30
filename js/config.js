@@ -5,7 +5,7 @@ const BASE_PATH = window.location.origin + (window.location.pathname.includes('p
 export const JSON_ROOT  = BASE_PATH + '/data/reports/';     // Folder for *.json reports
 export const MEDIA_ROOT = BASE_PATH + '/';          // Prefix for every img / bg
 
-export const TARGET_TAG = 'main';         // Tag where to insert render
+export const TARGET_TAG = 'main'; // Tag where to insert render
 
 
 

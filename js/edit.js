@@ -85,8 +85,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     reader.readAsDataURL(fileInput.files[0]);
                 }
             } else {
-
-                data[key] = formatText(value);
+                if (typeof(value) === 'string') {
+                    data[key] = formatText(value);
+                } else {
+                    console.error(value);
+                }
             }
         }
 

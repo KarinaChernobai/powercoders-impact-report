@@ -74,6 +74,12 @@ button:hover{
     margin-right: 20px;
 }
 
+p:has(.red__highlight + .red__highlight_text) {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}  
+
 .red__highlight{
     color: #C42E4C;
     font-weight: 400;
